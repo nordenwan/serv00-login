@@ -8,8 +8,8 @@ import requests
 import os
 
 # 从环境变量中获取 Telegram Bot Token 和 Chat ID
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+TELEGRAM_BOT_TOKEN = os.getenv('6249245087:AAHedu8rj8hATtATc-h2dJRJDjQyL8ge16s')
+TELEGRAM_CHAT_ID = os.getenv('6249245087')
 
 def format_to_iso(date):
     return date.strftime('%Y-%m-%d %H:%M:%S')
